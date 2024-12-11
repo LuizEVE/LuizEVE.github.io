@@ -1,0 +1,372 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #830000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ac1d1d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px black;
+}
+
+
+
+header .logo img {
+    width: 150px;
+    background-color: #ac1d1d;
+   
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background-color: #8d0202;      /* Cor de fundo do banner */
+    padding: 50px 20px;             /* Espaçamento interno */
+    display: flex;                  /* Usa o Flexbox */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    align-items: center;            /* Alinha os itens verticalmente no centro */
+  }
+  
+  .banner-content {
+    display: flex;                  /* Flexbox dentro do container */
+    justify-content: space-between; /* Espaça os itens (imagem e texto) */
+    align-items: center;            /* Alinha os itens verticalmente no centro */
+    width: 100%;                     /* Garante que ocupe a largura total */
+  }
+  
+  .text-content {
+    max-width: 50%;                 /* Limita a largura do texto à 50% da tela */
+    color: #fff;                    /* Cor do texto (branco) */
+  }
+  
+  .banner h1 {
+    font-size: 2.5rem;              /* Tamanho do título */
+    margin-bottom: 20px;            /* Espaço abaixo do título */
+  }
+  
+  .banner p {
+    font-size: 1.2rem;              /* Tamanho do parágrafo */
+    margin-bottom: 20px;            /* Espaço abaixo do parágrafo */
+  }
+  
+  .btn-primary {
+    background-color: #ff6347;      /* Cor de fundo do botão */
+    color: white;                   /* Cor do texto do botão */
+    padding: 15px 30px;             /* Espaçamento interno do botão */
+    border-radius: 5px;             /* Bordas arredondadas */
+    text-decoration: none;          /* Remove o sublinhado do link */
+    font-size: 1rem;                /* Tamanho da fonte do botão */
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff4500;      /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  .image-content {
+    max-width: 50%;                 /* Limita a largura da imagem à 50% da tela */
+  }
+  
+  .image-content img {
+    width: 100%;                    /* A imagem vai ocupar toda a largura do container */
+    height: auto;                   /* Mantém a proporção da imagem */
+  }
+
+/* Planos */
+.planos {
+    background-color: #f10000;
+    padding: 50px 20px;
+    text-align: center;
+    
+}
+
+.planos h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.planos-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.plano-item {
+    background-color: #1a0303;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    
+   
+}
+
+.plano-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.plano-item p {
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.plano-item .btn-secondary {
+    padding: 15px 25px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.plano-item .btn-secondary:hover {
+    background-color: #ff0000;
+}
+
+.plano-item1 {
+    background-color: #f7c9c9;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    color: #000000;
+    border: solid 1px rgb(0, 0, 0);
+}
+
+.plano-item1 h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.plano-item1 p {
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.plano-item1 .btn-secondary {
+    padding: 15px 25px;
+    background-color: #ff0000;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.plano-item1 .btn-secondary:hover {
+    background-color: #ff0000;
+}
+
+
+
+
+/* Rodapé */
+footer {
+    background-color: rgb(151, 0, 0);
+    padding: 20px;
+    text-align: center;
+    border: solid 2px black;
+}
+/* Conteúdo CineFlick */
+.conteudo-cineflick {
+    text-align: center; /* Centraliza o texto e os itens */
+    display: flex; /* Usando flexbox para os itens */
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte quando necessário */
+    gap: 20px; /* Espaço entre os itens */
+    justify-content: center; /* Centraliza os itens dentro do container */
+  }
+  
+  .conteudo-cineflick h2 {
+    width: 100%; /* Garante que o título ocupe a linha inteira */
+    margin-bottom: 20px; /* Espaço entre o título e os itens */
+    font-size: 50px;
+  }
+  
+  .conteudo-item {
+    background-color: #290202; /* Cor de fundo para os itens */
+    padding: 15px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui o padding no cálculo do tamanho do item */
+    width: 30%; /* Cada item ocupa 30% da largura do container, permitindo 3 itens por linha */
+    text-align: center; /* Centraliza o texto dentro de cada item */
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .imgcont {
+    width: 300px; /* A imagem ocupa toda a largura do item */
+
+    height: 300px; /* Mantém a proporção da imagem */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .conteudo-item {
+      width: 45%; /* 2 itens por linha em telas menores */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .conteudo-item {
+      width: 100%; /* 1 item por linha em telas muito pequenas */
+    }
+  }
+/* Cabeçalho com info de pagamento */
+.header-info {
+    background-color:  #270101;
+
+}
+
+.header-info p {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    margin-left: 350px;
+}
+
+.rodape {
+   text-align: left;
+  
+}
+
+.rodape1 {
+    text-align: right;
+    margin: 5px;
+ }
+
+ .img1 {
+    height:16px;
+ }
+
+ .plano-item h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.plano-item1 h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.plano-item h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.plano-item1 h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.desconto {
+    margin: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 20px;
+    border: solid 1px red;
+}
+
+.btnbaixo {
+    margin-top: 140px;
+}
+
+.informacoes {
+    font-family: Arial, sans-serif; /* Definindo uma fonte simples */
+    margin: 20px;
+    line-height: 1.6;
+  }
+  
+  .informacoes h2 {
+    color: #2d2d2d; /* Cor do título */
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .informacoes p {
+    color: #555555; /* Cor do texto */
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #0066cc; /* Cor para links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adiciona sublinhado no hover */
+  }
+
+  .informacoes {
+    display: flex;               /* Define o layout como flex */
+    justify-content: space-between; /* Espaça os itens igualmente */
+    gap: 30px;                   /* Espaçamento entre os itens */
+    font-family: Arial, sans-serif; /* Fonte simples e legível */
+    margin: 40px;                /* Espaçamento ao redor da seção */
+  }
+
+  .informacao-item {
+    flex: 1;                      /* Faz cada item ocupar o mesmo espaço disponível */
+    padding: 20px;                /* Adiciona um pouco de espaço dentro de cada item */
+    background-color: #410808;    /* Cor de fundo leve para os itens */
+    border-radius: 8px;           /* Bordas arredondadas */
+  }
+
+  .informacao-item h2 {
+    color: #ffffff;               /* Cor do título */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+ .imginfo {
+    height: 100px;
+    width: 300px;
+ }
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 60px;
+}
+
+.content p {
+    font-size: 30px;
+}
+
+.contact-info h3 {
+   font-size: 50px;
+}
+
+.lg{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
